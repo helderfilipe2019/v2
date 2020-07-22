@@ -306,6 +306,19 @@ header.masthead .intro-text .intro-heading {
     /* JUST TO LOOK COOL */
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
     transition: all .3s ease-in-out;
+    height: 400px;
+}
+
+.card-img-top {
+    height: 150px;
+}
+.card-title {
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
+    height: 100px;;
 }
 
 .card:hover {
