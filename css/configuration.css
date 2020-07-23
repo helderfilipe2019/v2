@@ -53,6 +53,9 @@ section h3.section-subheading {
     section {
         padding: 100px 0;
     }
+    .small-padding {
+        padding: 10px 0px 0px 0px;
+    }
 }
 
 .btn {
@@ -260,8 +263,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .ul-style {
-    list-style: none; 
-    text-align: left; 
+    list-style: none;
+    text-align: left;
     font-size: 16px;
 }
 
@@ -312,29 +315,33 @@ header.masthead .intro-text .intro-heading {
 /****************** PROJECTS **********************/
 
 .card {
+    text-align: center;
     padding: 15px;
-    /* JUST TO LOOK COOL */
     border: 1px solid #eee;
-    /* JUST TO LOOK COOL */
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
     transition: all .3s ease-in-out;
     height: 300px;
 }
 
-.card-body {
-    
-}
-
 .card-img-top {
     height: 110px;
 }
+
 .card-title {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .card-text {
-    font-size: 11px;
-    height: 55px;;
+    text-align: left;
+    font-size: 12px;
+    height: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card-languages {
+    font-size: 12px;
+    color: #428bca;
 }
 
 .card:hover {
@@ -362,15 +369,11 @@ header.masthead .intro-text .intro-heading {
     clear: both;
 }
 
-/* Style the counter cards */
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
+.initiallyHidden {
+    display: none;
 }
+
+/* Style the counter cards */
 
 /* Responsive columns - one column layout (vertical) on small screens */
 
@@ -380,6 +383,12 @@ header.masthead .intro-text .intro-heading {
         display: block;
         margin-bottom: 20px;
     }
+}
+
+/****************** MORE PROJECTS **********************/
+
+.small-padding {
+    padding: 10px 0px 0px 0px ;
 }
 
 /****************** FOOTER **********************/
